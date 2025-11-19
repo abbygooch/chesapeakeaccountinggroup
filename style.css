@@ -453,6 +453,85 @@ body.home .ship-bullets li::before {
   filter: brightness(10); 
   z-index: 3;
 }
+.firm-profile {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #e6f0f0, #ffffff);
+}
+
+.firm-profile h2 {
+  color: #285a5e;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.firm-profile p {
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: #3e7477;
+}
+
+.team-member {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  background: #f1f7f7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.team-member img {
+  flex-shrink: 0;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #285a5e;
+  background-color: #b5d3d3;
+}
+
+.team-member div {
+  flex: 1;
+}
+
+.team-member h3 {
+  margin-top: 0;
+  color: #285a5e;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  color: #3e7477;
+  line-height: 1.65;
+}
+
+@media (max-width: 800px) {
+  .team-member {
+    flex-direction: column;
+    text-align: center;
+  }
+  .team-member img {
+    margin: 0 auto 1rem auto;
+  }
+}
+
+.firm-profile .team-member + .team-member {
+  border-top: 1px solid #d0e2e2;
+  padding-top: 2rem;
+}
 
 
 
