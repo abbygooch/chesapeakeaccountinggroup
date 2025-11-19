@@ -511,6 +511,7 @@ body.home .ship-bullets li::before {
   color: #285a5e;
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .team-member p {
@@ -532,6 +533,7 @@ body.home .ship-bullets li::before {
   border-top: 1px solid #d0e2e2;
   padding-top: 2rem;
 }
+
 
 
 
