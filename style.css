@@ -533,6 +533,11 @@ body.home .ship-bullets li::before {
   border-top: 1px solid #d0e2e2;
   padding-top: 2rem;
 }
+.header-style {
+  color: #285a5e;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
 
 
 
