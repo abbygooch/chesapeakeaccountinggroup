@@ -540,6 +540,14 @@ body.home .ship-bullets li::before {
   margin-bottom: 1.5rem;
 }
 
+.resources h2 {
+  color: #285a5e;      
+  font-size: 2rem;      
+  font-weight: 600;     
+  margin-bottom: 2rem;  
+  text-align: center;   
+  line-height: 1.3;     
+}
 
 
 
