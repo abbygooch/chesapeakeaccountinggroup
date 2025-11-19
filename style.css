@@ -535,9 +535,12 @@ body.home .ship-bullets li::before {
 }
 .header-style {
   color: #285a5e;
-  font-size: 1.6rem;
+  font-size: 2.5rem; 
   font-weight: 600;
+  margin-bottom: 1.5rem;
 }
+
+
 
 
 
